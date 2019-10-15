@@ -1,6 +1,6 @@
 ## Description
 
-The dataset contains 1050 problem instances for the multi-line permutation flow shop problem. The generation follows the method of Tallard (1993)[1] and generates random processing times in the interval [1,99]. To create the demand plan we draw randomly from a multinomial distribution with equal probability for each job type.
+The dataset contains 1050 problem instances for the multi-line permutation flow shop problem. The generation follows the method of Tallard (1993) and generates random processing times in the interval [1,99]. To create the demand plan we draw randomly from a multinomial distribution with equal probability for each job type.
 
 ## Dataset structure
 
@@ -20,7 +20,7 @@ Each folder contains 70 problem instances. A problem file is a combination of on
 **G**: Number of sorts (5,10,20) <br/>
 **H**: Number of demand plan variation (1-10) <br/>
 
-Each file represents a different problem file in text format.
+Each file represents a different problem in text format.
 
 *Line Notation*: <br/>
 L1: Demand plan <br/>
@@ -31,4 +31,4 @@ L5: Number of total machines with synchronization machine <br/>
 L6: Number of sorts <br/>
 L7-end: Processing times matrix for the combination of machine (row) and job type (column) <br/>
 
-[1]: Taillard, E. (1993). Benchmarks for basic scheduling problems. European Journal of Operational Research, 64 (2), 278{285.
+1. Taillard, E. (1993). Benchmarks for basic scheduling problems. European Journal of Operational Research, 64 (2), 278-285.

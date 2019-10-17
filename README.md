@@ -1,12 +1,14 @@
 ## Description
 
-The dataset contains 1050 problem instances for the multi-line permutation flow shop problem. The generation follows the method of Tallard (1993) and generates random processing times in the interval [1,99]. To create the demand plan we draw randomly from a multinomial distribution with equal probability for each job type.
+Two datasets are provided. The main dataset (folder data) contains 1050 problem instances for the multi-line permutation flow shop problem. The generation follows the method of Tallard (1993) and generates random processing times in the interval [1,99]. To create the demand plan we draw randomly from a multinomial distribution with equal probability for each job type. 
+
+The additional dataset (folder data_disturbed) contains 150 problem instances for the multi-line permutation flow shop problem with short term-disturbances.
 
 ## Dataset structure
 
-The PFSP dataset is structured in 15 folders. Each folder contains problem instances for a combination of line layout and processing time variation.
+Each PFSP dataset is structured in 15 subfolders. Each folder contains problem instances for a combination of line layout and processing time variation.
 
-*Notation*: Tai_PFSP_**A**L_**B** <br/>
+*Notation*: Tai_PFSP_**A**L_**B** / Tai_D_PFSP_**A**L_**B** <br/>
 **A**: Number of Lines (1-3) <br/>
 **B**: Number of processing time variation (1-5) <br/>
 
